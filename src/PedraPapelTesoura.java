@@ -38,13 +38,13 @@ public class PedraPapelTesoura {
 		} else if ((valor == 0 && pc == 1) || 
 				   (valor == 1 && pc == 2) || 
 				   (valor == 2 && pc == 0)) {
-			System.out.printf("PC ganhou");
+			System.out.printf("VOCÊ PERDEU :(");
 		} else if ((valor == 1 && pc == 0) || 
 				   (valor == 2 && pc == 1) || 
 				   (valor == 0 && pc == 2)) {
-			System.out.printf("O pai ganhou");
+			System.out.printf("PARABÉNS VOCÊ GANHOU!!!");
 		} else {
-			System.out.printf("Digite algo v�lido");
+			System.out.printf("Digite algo válido");
 		}
 	}
 }
